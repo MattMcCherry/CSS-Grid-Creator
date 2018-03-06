@@ -2,7 +2,7 @@
 
 > Easy image board creation with user customisation
 
-Simply add your images to the folder /images, open up index.html and click to customise the layout!
+Simply add your images to the folder /images, open up index.html and click the images on your site customise the layout!
 
 or create your own folder and simply change the location of the folder const in app.js.
 

@@ -1,36 +1,40 @@
+/* 
+    Generic page setup styling
+*/
+
 * {
     box-sizing: border-box;
 }
 
 body {
     background-color: #212121;
+    font-family: Open sans, sans-serif;
+    color: #adbfcf;
+    margin: 0;
+    font-size: 0.8em;
+    text-decoration: none;
 }
-
-
 
 h1 {
+    font-size: 2.5em;
     text-align: center;
     color: aliceblue;
-    font-family: Open sans, sans-serif;
+    margin: 0;
 }
 
-#container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows: 300px;
-    grid-gap: 10px;
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    text-align: right;
+    margin: 0 2% 0 0;
+}
+
+#page {
+    width: 100%;
     margin: 0 auto;
-    width: 940px;
-    grid-auto-flow: dense;
-}
-
-.gridItem {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(0,0,0,0.5);
-    box-shadow: 0 3px 10px rgba(0,0,0,0.4);
-    overflow: hidden
 }
 
 img {
@@ -46,6 +50,37 @@ img:hover {
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
+}
+
+#container {
+    padding: 1em 2em;
+    background: #403e3d;
+}
+
+a {
+    color: #2879ff;
+}
+
+/* 
+    Below is grid styling options for potentional customisation
+*/
+
+#imgContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+    margin: 1em 0;
+}
+
+.gridItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+    overflow: hidden
 }
 
 .vertical {

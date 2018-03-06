@@ -8,7 +8,7 @@
         success: function (data) {
             $(data).find("a").attr("href", function (i, val) {
                 if( val.match(/\.(jpe?g|png|gif)$/) ) { 
-                    $("#imgContainer").append( `<div class="gridItem"><img src="${val}" class="overlay"></div>` );
+                    $("#imgContainer").append( `<div class="gridItem"><img src="${folder}${val}" class="overlay"></div>` );
                 } 
             });
         }

@@ -10,7 +10,7 @@ You can find my example website over at www.mattmccherry.com/imageboard.html.
 
 To setup on your server make sure you .htaccess gives access to the folder for example.
 
-1. Create the file .htaccess in the folder with the images.
+1. Create the file .htaccess in the parent directory of the folder with the images.
 2. Insert
 
 > Options +Indexes
